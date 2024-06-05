@@ -1,3 +1,58 @@
+# Node modules
 node_modules/
-dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
 .env
+
+# Next.js build output
+.next/
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache/
+
+# Svelte build directory
+public/build/
+
+# Storybook files
+storybook-static
+
+# Others
+.DS_Store
+*.pem
+*.crt
+*.key
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
