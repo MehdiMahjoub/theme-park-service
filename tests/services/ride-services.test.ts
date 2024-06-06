@@ -78,12 +78,12 @@ describe('Ride Services', () => {
 
     it('should handle error while fetching rides data', async () => {
         const originalError = console.error;
-        console.error = jest.fn(); // Temporarily disable console.error
+        console.error = jest.fn();
 
         mockedAxios.get.mockRejectedValue(new Error('Network Error'));
 
         await expect(getRidesData()).rejects.toThrow('Failed to fetch rides data');
 
-        console.error = originalError; // Restore console.error
+        console.error = originalError;
     });
 });

@@ -3,7 +3,7 @@ import { getRideByParkName, getParkWithMostRidesForHeight, getExtremeRides } fro
 
 const router = express.Router();
 
-router.get('/status/:parkName', getRideByParkName);//good
+router.get('/status/:parkName', getRideByParkName);
 router.get('/most-rides/:height', getParkWithMostRidesForHeight);
 router.get('/extreme-rides', getExtremeRides);
 
