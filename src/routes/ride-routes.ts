@@ -1,5 +1,9 @@
 import express from 'express';
-import { getRideByParkName, getParkWithMostRidesForHeight, getExtremeRides } from '../controllers/ride-controllers';
+import {
+  getRideByParkName,
+  getParkWithMostRidesForHeight,
+  getExtremeRides,
+} from '../controllers/ride-controllers';
 
 const router = express.Router();
 
