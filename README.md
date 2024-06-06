@@ -3,8 +3,7 @@ This API exports information about theme parks and their attractions.
 
 ## Installation
 ```bash
-git clone <votre-repository-git>
-cd <nom-du-dossier>
+cd <theme-park-service>
 npm install
 ```
 
